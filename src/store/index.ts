@@ -1,6 +1,8 @@
-import Vuex from 'vuex';
+import { createStore, createLogger } from 'vuex';
 
-export default Vuex.createStore({
+const debug = process.env.NODE_ENV !== 'production';
+
+export default createStore({
   state: {
   },
   mutations: {
@@ -9,4 +11,6 @@ export default Vuex.createStore({
   },
   modules: {
   },
+  strict: debug,
+  plugins: debug ? [createLogger()] : [],
 });
