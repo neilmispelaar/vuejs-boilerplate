@@ -1,12 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav" class=" mx-auto container w-1/2 bg-gray-300">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <!-- The header component -->
+    <the-header />
+
+    <!-- Page content -->
+    <div class="w-full mx-auto container p-5">
+      <main>
+        <router-view/>
+      </main>
     </div>
-    <router-view/>
+    <!-- The footer component -->
+    <the-footer />
   </div>
 </template>
+
+<script lang="ts">
+import TheHeader from './components/TheHeader.vue';
+import TheFooter from './components/TheFooter.vue';
+
+export default ({
+  name: 'App',
+  components: {
+    TheHeader,
+    TheFooter,
+  },
+});
+</script>
 
 <style>
 </style>
