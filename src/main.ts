@@ -3,6 +3,9 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 
+// Import tailwindcss into our project
+import './assets/styles/main.css';
+
 // Setup Vue App and the add-ons
 const app = createApp(App);
 
