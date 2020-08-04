@@ -25,9 +25,9 @@ export default createStore({
   actions: {
 
     // Load things from a Service
-    loadAllThings({commit}) {
+    loadAllThings({ commit }) {
       // GenericService.loadAllThings(() => {},() => {});
-    }
+    },
 
   },
   modules: {
