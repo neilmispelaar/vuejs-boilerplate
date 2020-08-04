@@ -1,6 +1,11 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+
+    <h1
+      class="text-4xl"
+      id="maincontent"
+      name="maincontent">This is the Home page heading</h1>
+
   </div>
 </template>
 

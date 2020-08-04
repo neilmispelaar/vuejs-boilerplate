@@ -1,8 +1,8 @@
 <template>
   <div>
     <footer>
-      <div class="bg-gray-300 p-5">
-        <div class="w-full mx-auto container">
+      <div class="bg-gray-200">
+        <div class="w-full mx-auto container p-5">
           <div class="flex items-center justify-between">
 
             <!-- Hidden heading -->

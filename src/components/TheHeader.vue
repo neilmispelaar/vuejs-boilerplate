@@ -1,14 +1,19 @@
 <template>
   <div>
     <header>
-      <div class="bg-gray-200 p-5">
-        <div class="w-full mx-auto container flex items-center justify-between">
+      <div class="bg-gray-200">
+        <div class="w-full mx-auto container p-5 flex items-center justify-between">
 
           <!-- Hidden heading -->
           <h2 class="sr-only">Site Header Information</h2>
 
           <!-- Brand Logo -->
           <img class="h-10" alt="Vue logo" src="../assets/logo.png">
+
+          <!-- Site title -->
+           <div>
+             <p class="text-gray-800 font-semibold">Site Title</p>
+           </div>
 
           <!-- Application links -->
           <nav>
@@ -18,7 +23,6 @@
             </div>
           </nav>
 
-          <div></div>
         </div>
       </div>
     </header>
