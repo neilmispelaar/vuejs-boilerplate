@@ -5,6 +5,9 @@
         <div class="w-full mx-auto container">
           <div class="flex items-center justify-between">
 
+            <!-- Hidden heading -->
+            <h2 class="sr-only">Site Footer Information</h2>
+
             <p>Footer information</p>
 
           </div>
